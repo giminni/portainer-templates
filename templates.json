@@ -162,7 +162,7 @@
 		},
 		{
 			"type": 1,
-			"title": "CockroachDB",
+			"title": "CockroachDB (Single Node)",
 			"description": "An open-source, survivable, strongly consistent, scale-out SQL database",
 			"categories": [
 				"database"
