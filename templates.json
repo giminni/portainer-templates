@@ -974,6 +974,10 @@
 			"title": "CockroachDB (Cluster Node)",
 			"description": "CockroachDB cluster",
 			"note": "Deploys an insecure CockroachDB cluster.",
+			"categories": [
+				"CMS"
+			],
+			"platform": "linux",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cockroachdb.png",
 			"repository": {
 				"url": "https:/github.com/giminni/portainer-templates",
@@ -985,11 +989,20 @@
 			"title": "Wordpress & MySQL",
 			"description": "Wordpress setup with a MySQL database",
 			"note": "Deploys a Wordpress instance connected to a MySQL database.",
+			"categories": [
+				"CMS"
+			],
+			"platform": "linux",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
 			"repository": {
-				"url": "https:/github.com/giminni/portainer-templates",
-				"stackfile": "stacks/wordpress/edge/docker-stack.yml"
-			}
+				"url": "https://github.com/portainer/templates",
+				"stackfile": "stacks/wordpress/docker-compose.yml"
+			},
+			"env": [{
+				"name": "MYSQL_DATABASE_PASSWORD",
+				"label": "Database root password",
+				"description": "Password used by the MySQL root user."
+			}]
 		}
 	]
 }
