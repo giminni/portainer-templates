@@ -976,7 +976,7 @@
 			"note": "Deploys an insecure CockroachDB cluster.",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cockroachdb.png",
 			"repository": {
-				"url": "https://raw.githubusercontent.com/giminni/portainer-templates/master",
+				"url": "https:/github.com/giminni/portainer-templates",
 				"stackfile": "stacks/cockroachdb/edge/docker-stack.yml"
 			}
 		},
@@ -987,7 +987,7 @@
 			"note": "Deploys a Wordpress instance connected to a MySQL database.",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
 			"repository": {
-				"url": "https://raw.githubusercontent.com/giminni/portainer-templates/master",
+				"url": "https:/github.com/giminni/portainer-templates",
 				"stackfile": "stacks/wordpress/edge/docker-stack.yml"
 			}
 		}
