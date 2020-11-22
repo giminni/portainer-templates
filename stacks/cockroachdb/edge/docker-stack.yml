@@ -9,7 +9,7 @@ services:
     ports:
       - 8080
     environment:
-      PSQL_ROOT_PASSWORD: ${PSQL_DATABASE_PASSWORD}
+      PSQL_ROOT_PASSWORD: default_root_password
       PSQL_DATABASE: wordpress
       PSQL_USER: wordpress
       PSQL_PASSWORD: wordpress
