@@ -200,7 +200,7 @@
 					"container": "/cockroach/cockroach-data"
 				}
 			],
-			"command": "start-single-node --insecure"
+			"command": "start-single-node --certs-dir=$HOME/.cockroach/certs"
 		},
 		{
 			"type": 1,
