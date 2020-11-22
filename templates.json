@@ -970,11 +970,14 @@
 			]
 		},
 		{
-			"type": 4,
+			"type": 3,
 			"title": "CockroachDB (Cluster Node)",
 			"description": "CockroachDB cluster",
 			"note": "Deploys an insecure CockroachDB cluster.",
-			"stackfile": "https://raw.githubusercontent.com/portainer/templates/master/stacks/cockroachdb/edge/docker-stack.yml"
+			"repository": {
+				"url": "https://raw.githubusercontent.com/portainer/templates/master",
+				"stackfile": "stacks/cockroachdb/edge/docker-stack.yml"
+			}
 		}
 	]
 }
