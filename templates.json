@@ -975,8 +975,18 @@
 			"description": "CockroachDB cluster",
 			"note": "Deploys an insecure CockroachDB cluster.",
 			"repository": {
-				"url": "https://raw.githubusercontent.com/portainer/templates/master",
+				"url": "https://raw.githubusercontent.com/giminni/portainer-templates/master",
 				"stackfile": "stacks/cockroachdb/edge/docker-stack.yml"
+			}
+		},
+		{
+			"type": 3,
+			"title": "Wordpress",
+			"description": "Wordpress setup with a MySQL database",
+			"note": "Deploys a Wordpress instance connected to a MySQL database.",
+			"repository": {
+				"url": "https://raw.githubusercontent.com/giminni/portainer-templates/master",
+				"stackfile": "stacks/wordpress/edge/docker-stack.yml"
 			}
 		}
 	]
