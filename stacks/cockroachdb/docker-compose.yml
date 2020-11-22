@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+  roach1:
+    image: cockroachdb/cockroach:latest
+    command: "start --insecure"
+    deploy:
+      replicas: 1
+    ports:
+      - 8080
+    environment:
+      PSQL_ROOT_PASSWORD: ${PSQL_DATABASE_PASSWORD}
+      PSQL_DATABASE: wordpress
+      PSQL_USER: wordpress
+      PSQL_PASSWORD: wordpress
+
+  roachN:
+    image: cockroachdb/cockroach:latest
+    command: "start --insecure --join=roach1,roachN"
+    deploy:
+      mode: global
