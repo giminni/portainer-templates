@@ -982,7 +982,7 @@
 		},
 		{
 			"type": 3,
-			"title": "Wordpress",
+			"title": "Wordpress & MySQL",
 			"description": "Wordpress setup with a MySQL database",
 			"note": "Deploys a Wordpress instance connected to a MySQL database.",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
