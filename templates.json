@@ -984,7 +984,7 @@
 				"stackfile": "stacks/cockroachdb/edge/docker-stack.yml"
 			},
 			"env": [{
-				"name": "POSTGRESQL_DATABASE_PASSWORD",
+				"name": "MYSQL_DATABASE_PASSWORD",
 				"label": "Database root password",
 				"description": "Password used by the CockroachDB root user."
 			}]
