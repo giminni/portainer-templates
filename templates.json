@@ -974,6 +974,7 @@
 			"title": "CockroachDB (Cluster Node)",
 			"description": "CockroachDB cluster",
 			"note": "Deploys an insecure CockroachDB cluster.",
+			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/cockroach.png",
 			"repository": {
 				"url": "https://raw.githubusercontent.com/giminni/portainer-templates/master",
 				"stackfile": "stacks/cockroachdb/edge/docker-stack.yml"
@@ -984,6 +985,7 @@
 			"title": "Wordpress",
 			"description": "Wordpress setup with a MySQL database",
 			"note": "Deploys a Wordpress instance connected to a MySQL database.",
+			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
 			"repository": {
 				"url": "https://raw.githubusercontent.com/giminni/portainer-templates/master",
 				"stackfile": "stacks/wordpress/edge/docker-stack.yml"
