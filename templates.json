@@ -987,7 +987,7 @@
 			"note": "Deploys a Wordpress instance connected to a MySQL database.",
 			"logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/wordpress.png",
 			"repository": {
-				"url": "https:/github.com/giminni/portainer-templates",
+				"url": "https://raw.githubusercontent.com//giminni/portainer-templates/master",
 				"stackfile": "stacks/wordpress/edge/docker-stack.yml"
 			}
 		}
