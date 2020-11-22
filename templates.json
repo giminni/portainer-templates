@@ -982,7 +982,12 @@
 			"repository": {
 				"url": "https:/github.com/giminni/portainer-templates",
 				"stackfile": "stacks/cockroachdb/edge/docker-stack.yml"
-			}
+			},
+			"env": [{
+				"name": "POSTGRESQL_DATABASE_PASSWORD",
+				"label": "Database root password",
+				"description": "Password used by the CockroachDB root user."
+			}]
 		},
 		{
 			"type": 3,
